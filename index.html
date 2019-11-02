@@ -5,9 +5,6 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
   <title>Heroic Features - Start Bootstrap Template</title>
 
   <!-- Bootstrap core CSS -->
@@ -33,12 +30,26 @@
   background-color: #555;
 }
 
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
 .content {
   padding: 0 18px;
-  display: none;
+  max-height: 0;
   overflow: hidden;
+  transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
+</style>
 </head>
 
 <body>
@@ -94,6 +105,10 @@
           <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
             <h4 class="card-title">An ecommerce website (online store).</h4>
+            <h5>Price:</h5>
+            <p class="card-text">R3000 for site creation. +<br/>
+             <b>Free<b/> web hosting +<br/>
+             <b>Free<b/> custom domain for the <b>first 12 months</b>.</p>
             <button type="button" class="collapsible">Read more.</button>
             <p class="card-text">We will use a third-party software to create a fully functional ecommerce website for your business.
 An ecommerce website allows your business to sell your company's products to customers online at the comfort of their own space without them having to buy at the store's location.
@@ -101,6 +116,12 @@ An ecommerce website also allows your business to accept payments online by aski
 You can choose whether you want to deliver items sold online to your customers or have them pick up their orders in the store after they place an order.
 The ecommerce website will include the best safety features to make sure that your customers sensitive information (such as credit card details) are kept safe.
 Your ecommerce website will also have the option of including a blog for the reading pleasure of your clients or other website sections that you want.</p>
+           <p class="card-text"><b>Security features include:</b></p>
+               <ol>
+                 <li>HTTPS/SSL certification: This ensures that the information that is submitted is not intercepted or read by a third party.</li>
+                 <li>Crawl back verification: This makes it impossible for hackers to change or modify the prices of your products/services on your web page.</li>
+                 <li>Solid hosting security: Our payment gateway provider will never save or store any credit card information on their servers.</li>
+               </ol>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Find Out More!</a>
@@ -112,8 +133,17 @@ Your ecommerce website will also have the option of including a blog for the rea
         <div class="card h-100">
           <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+            <h4 class="card-title">A website with no e-commerce functionalities.</h4>
+            <h5>Price:</h5>
+            <p class="card-text">R3000 for site creation. +<br/>
+             <b>Free<b/> web hosting +<br/>
+             <b>Free<b/> custom domain for the <b>first 12 months</b>.</p>
+            <button type="button" class="collapsible">Read more.</button>
+            <p class="card-text">We will use a third-party software to create a fully functional website for your business.
+              You can use this website to showcase and advertise your business, however, 
+              since it is not an ecommerce website, you will not be able to sell products on this website 
+              ,however, you may use this website as a blog, online advertisement etc.</p>
+               <p class="card-text">*This offer is for people who only want their website to advertise their business online.</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Find Out More!</a>
@@ -125,8 +155,18 @@ Your ecommerce website will also have the option of including a blog for the rea
         <div class="card h-100">
           <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            <h4 class="card-title">Facebook advertising.</h4>
+            <h5>Price:</h5>
+            <p class="card-text">R750 once off</p>
+            <button type="button" class="collapsible">Read more.</button>
+            <p class="card-text">We at Phungela Online Solutions also offer Facebook advertising for your business which will drive potential customers to your website or store.
+This is done by creating an advertising campaign on Facebook which will post your business' advertisement on the news feed of potential customers as a "suggested post".<br/>
+   This offer includes:</p>
+            <ul>
+              <li>The creation of a business page on Facebook. (If your business does not have one already.)</li>
+              <li>The creation of a Facebook business account.</li>
+              <li>The creation of a single Facebook advertisement campaign which will post an advertisement of your business to the news feed of potential customers in any region that you choose.</li>
+            </ul>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Find Out More!</a>
@@ -138,8 +178,13 @@ Your ecommerce website will also have the option of including a blog for the rea
         <div class="card h-100">
           <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+            <h4 class="card-title">E-mail marketing service</h4>
+            <h5>Price:</h5>
+            <p class="card-text">R500 once off</p>
+            <button type="button" class="collapsible">Read more.</button>
+            <p class="card-text">We will create an e-mail database for marketing purposes whereby your business will be able to collect up to 2000 e-mail addresses from potential or established clients and send up to 10000 e-mails per month so that you can market deals and special offers to your clients.
+This e-mail service also includes basic templates for your e-mail advertisement to give your business a more professional look.
+The e-mail marketing service also offers built-in analytics so that you can know which offer or deal your clients are most attracted to so you know what really works and what doesn't when it comes to e-mail advertising.</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Find Out More!</a>
@@ -164,7 +209,22 @@ Your ecommerce website will also have the option of including a blog for the rea
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
 
 </html>
