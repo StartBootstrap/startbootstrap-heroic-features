@@ -1876,6 +1876,11 @@ pre code {
   }
 }
 
+.logoGrande {
+/* max-width: 10 px; */
+height: 40px;
+}
+
 .form-control::-ms-expand {
   background-color: transparent;
   border: 0;
