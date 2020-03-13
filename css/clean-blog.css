@@ -45,7 +45,7 @@ header.masthead .site-heading {
 
 header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
-  font-size: 50px;
+  font-size: auto;
   margin-top: 0;
 }
 
@@ -62,12 +62,12 @@ header.masthead .site-heading .subheading {
 @media only screen and (min-width: 768px) {
   header.masthead .page-heading h1,
   header.masthead .site-heading h1 {
-    font-size: 30px;
+    font-size: 7vw;
   }
 }
 
 header.masthead .post-heading h1 {
-  font-size: 35px;
+  font-size: 5rem;
 }
 
 header.masthead .post-heading .meta,
