@@ -10,3 +10,11 @@ body {
   /* max-width: 10 px; */
   height: 40px;
 }
+.footer-left {
+  text-align: center;
+  object-position: left;
+}
+.footer-right {
+  text-align: center;
+  object-position: right;
+}

@@ -115,7 +115,7 @@ header.masthead .post-heading .subheading {
   padding-bottom: calc(10rem - 72px);
   background: linear-gradient(
       to bottom,
-      rgba(92, 77, 66, 0.653) 0,
+      rgba(92, 77, 66, 0.263) 0,
       rgba(92, 77, 66, 0.571) 100%
     ),
     url(../img/coachingEmpresas.jpg);
