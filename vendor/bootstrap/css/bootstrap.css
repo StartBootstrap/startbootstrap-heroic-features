@@ -2575,7 +2575,20 @@ fieldset:disabled a.btn {
 .btn-warning:focus, .btn-warning.focus {
   box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
 }
-
+masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0,
+      rgba(92, 77, 66, 0.386) 100%
+    ),
+    url(../img/portada.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 .btn-warning.disabled, .btn-warning:disabled {
   color: #212529;
   background-color: #ffc107;

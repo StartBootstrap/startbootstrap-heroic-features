@@ -65,7 +65,12 @@ header.masthead .site-heading .subheading {
     font-size: 7vw;
   }
 }
-
+.arriba-foto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 header.masthead .post-heading h1 {
   font-size: 5rem;
 }
@@ -74,6 +79,51 @@ header.masthead .post-heading .meta,
 header.masthead .post-heading .subheading {
   line-height: 1.1;
   display: block;
+}
+.foto-card-talleres {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.413) 0,
+      rgba(92, 77, 66, 0.386) 100%
+    ),
+    url(../img/talleresGrupales.jpeg);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.foto-card-conversaciones {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.728) 0,
+      rgba(92, 77, 66, 0.571) 100%
+    ),
+    url(../img/conversacionesCoaching.jpg);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.foto-card-empresas {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.653) 0,
+      rgba(92, 77, 66, 0.571) 100%
+    ),
+    url(../img/coachingEmpresas.jpg);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 header.masthead .post-heading .subheading {
