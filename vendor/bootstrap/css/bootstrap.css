@@ -228,6 +228,16 @@ label {
 
 button {
   border-radius: 0;
+  background-color: transparent;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  padding: 10px 25px;
+  color: white;
+  /* background-color: #ff0000; */
+  border:  1px solid #ff0000;
+  /* float: left; */
+
 }
 
 button:focus {
@@ -10102,4 +10112,5 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+/*# sourceMappingURL=bootstrap.css.map */button
+

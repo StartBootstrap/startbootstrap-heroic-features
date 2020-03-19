@@ -18,3 +18,7 @@ body {
   text-align: center;
   object-position: right;
 }
+.talleres {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
