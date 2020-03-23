@@ -9,23 +9,37 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>8mm Conversaciones</title>
+    <title>8mm Contacto</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
 
-    <!-- Custom styles for this template -->
-    <link href="css/shop-item.css" rel="stylesheet" />
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link
+      href="../empresas/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Optional theme -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Custom styles for this template -->
+    <link href="css/shop-item.css" rel="stylesheet" />
     <link href="../fonts/fontfamily.css" rel="stylesheet" />
     <link
       href="../vendor/font-awesome/css/font-awesome.min.css"
       rel="stylesheet"
       type="text/css"
     />
+    <link href="estilo.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -59,12 +73,14 @@
             <li class="nav-item">
               <a class="nav-link" href="../talleres/talleres.html">Talleres </a>
             </li>
-
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Conversaciones</a>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+              <a class="nav-link" href="../conversaciones/conversaciones.html"
+                >Conversaciones</a
+              >
+            </li>
+            <li class="nav-item active">
+              <span class="sr-only">(current)</span>
+              <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
         </div>
@@ -74,55 +90,54 @@
     <!-- Page Content -->
     <div class="container">
       <!-- Portfolio Item Heading -->
-      <h1 class="my-4">
-        Conversaciones de Coaching
-        <p></p>
-        <small>¿Qué podés hacer para que las cosas pasen? </small>
+      <h1 class="my-4 talleres">
+        Contactanos
+        <!-- <small>Secondary Text</small> -->
       </h1>
-
       <div class="row">
-        <div class="col-md-8">
-          <img
-            class="img-fluid"
-            src="../img/conversacionesCoaching.jpg"
-            alt=""
-          />
-        </div>
+        <div class="col-md-4 centrado">
+          <form action="https://formspree.io/xzbvknql" method="POST">
+            <div class="form-group">
+              <label for="nombre">Nombre y Apellido</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                placeholder="Nombre"
+              />
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="telefono">Telefono de contacto</label>
+              <input
+                type="text"
+                class="form-control"
+                id="telefono"
+                placeholder="Cel"
+              />
+            </div>
+            <div class="form-group">
+              <label for="comentario">Consulta</label>
 
-        <div class="col-md-4">
-          <h3 class="post-subtitle text-center">
-            Brindamos servicios a empresas, organizaciones sin fines de lucro y
-            personas individuales
-          </h3>
-          <h3 class="my-3">Nuestros Talleres</h3>
-          <ul>
-            <li>Coaching para nuevos líderes</li>
-            <li>Coaching para aumentar al máximo tu rendimiento</li>
-            <li>Coaching para conversaciones difíciles</li>
-            <li>¿Y si arriesgas y ganas?</li>
-            <li>¿Sos feliz o sólo estás cómodo?</li>
-            <li>Sos posibilidad</li>
-            <li>¿Querés ser el dueño de tu vida?</li>
-            <li>Encantado de conocerme</li>
-            <li>Definí tus objetivos y aumentá tus resultados</li>
-            <li>
-              Coaching y otras disciplinas
-              <div>○ Coaching + arte</div>
-              <div>○ Coaching + yoga</div>
-              <div>○ Coaching + Psicología</div>
-              <div>○ Coaching + baile</div>
-              <div>○ Coaching + teatro</div>
-            </li>
-          </ul>
-          <h3 class="my-3">Contactanos</h3>
-          <p>
-            Si queres tener un taller personalizado escribinos a
-            info@8milimetros.com.ar
-          </p>
+              <textarea
+                class="form-control"
+                rows="3"
+                placeholder="Dejanos tus comentarios o consultas y en breve nos comunicamos con vos"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
         </div>
       </div>
     </div>
     <!-- /.container -->
+    <br />
 
     <!-- Footer -->
     <footer class="py-5 bg-dark text-white">
@@ -185,8 +200,10 @@
           <div class="col-md-4 footer-left">
             <h4 class="text-uppercase mb-4">Contactanos</h4>
 
+            <!-- <p class="lead mb-0">contacto@8milimetros.com.ar</p> -->
+
             <a
-              class="lead mb-0"
+              class="lead mb-0 textoBlanco"
               href="mailto:contacto@8milimetros.com.ar?Subject=Contacto%20ocho%20milimetros"
               >contacto@8milimetros.com.ar</a
             >
@@ -195,6 +212,7 @@
         </div>
       </div>
     </footer>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
