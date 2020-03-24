@@ -226,20 +226,6 @@ label {
   margin-bottom: 0.5rem;
 }
 
-button {
-  border-radius: 0;
-  background-color: transparent;
-  position: absolute;
-  bottom: 20px;
-  left: 0px;
-  padding: 10px 25px;
-  color: white;
-  /* background-color: #ff0000; */
-  border:  1px solid #ff0000;
-  /* float: left; */
-
-}
-
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -291,6 +277,21 @@ button::-moz-focus-inner,
   padding: 0;
   border-style: none;
 }
+.desplegable{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  position: fixed;
+  background-color: #343a40;
+  display: none;
+  list-style: none;
+  padding: 0px 10px 0px 10px;
+  /* display: auto; */
+}
+.desplegableVisible{
+display: auto;
+}
+
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -332,7 +333,7 @@ legend {
 progress {
   vertical-align: baseline;
 }
-
+ul
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
