@@ -1,0 +1,85 @@
+.textoBlanco {
+  color: white;
+}
+.divAncor {
+  color: white;
+}
+.inverted {
+  filter: invert(100%);
+}
+.izquierda {
+  margin-right: auto;
+}
+.derecha {
+  text-align: right;
+}
+.colorNav {
+  background-color: #343a40 !important;
+}
+.colorNav1 {
+  /* background-color: black; */
+  padding: 0.7%;
+  vertical-align: middle;
+}
+.centrarIconos {
+  vertical-align: middle;
+  page-break-inside: auto;
+}
+.inverted {
+  filter: invert(100%);
+}
+#tituloPrincipal {
+  font-weight: 900;
+  font-size: 100%;
+  min-width: 100%;
+  /* color: red; */
+  /* letter-spacing: 2px; */
+}
+#navbarResponsive {
+  margin-left: auto;
+}
+#divAdentroDeNav {
+  margin: 0rem;
+  padding: 0;
+}
+#segundoNav {
+  padding: 0.5rem 1rem;
+}
+
+.blanco {
+  background-color: black;
+}
+.sinPadding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.tamanoTitulo {
+  font-size: calc(1.2em + 6vw);
+  font-weight: 900;
+}
+.subtitulo {
+  text-align: center;
+  font-size: calc(1.2em + 2vw);
+}
+.logoGrande {
+  /* max-width: 10 px; */
+  height: 50px;
+}
+body {
+  padding-top: 60px;
+}
+.bodyEmpresas {
+  padding-top: 100px;
+}
+.bodyTalleres {
+  padding-top: 90px;
+}
+.bodyConversaciones {
+  padding-top: 100px;
+}
+.bodyContacto {
+  padding-top: 100px;
+}
+.achicarFoto {
+  margin: 0px, 110px, 0px, 100px;
+}

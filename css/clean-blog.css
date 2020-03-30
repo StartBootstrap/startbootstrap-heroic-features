@@ -62,7 +62,8 @@ header.masthead .site-heading .subheading {
 @media only screen and (min-width: 768px) {
   header.masthead .page-heading h1,
   header.masthead .site-heading h1 {
-    font-size: 7vw;
+    /* font-size-adjust: 100%; */
+    /* font-size: 17vw; */
   }
 }
 .arriba-foto {

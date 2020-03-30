@@ -12,6 +12,8 @@
     <title>8mm Empresas</title>
 
     <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/clean-blog.css" rel="stylesheet" />
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
@@ -30,54 +32,163 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link />
+    <link href="../estilos.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="bodyEmpresas">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <!-- <a class="navbar-brand" href="#">8 Milímetros</a> -->
-        <a class="navbar-brand " href="../index.html">
-          <img class="logoGrande" src="../img/8milimetrosBlanco.png" alt="" />
-        </a>
+    <div class="fixed-top">
+      <div class="colorNav chicoNoSeVe">
+        <div id="segundoNav" class="container-fluid colorNav1">
+          <div class="row">
+            <div class="col-xs-0 col-sm-3 col-md-6 centrarIconos">
+              <ul class="list-inline mb-0 centrarIconos">
+                <li class="list-inline-item">
+                  <a
+                    class="btn-outline-light btn-social text-center rounded-circle"
+                    href="https://www.facebook.com/8milimetrosok"
+                    target="_blank"
+                  >
+                    <i class="fa fa-fw fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-outline-light btn-social text-center rounded-circle"
+                    href="https://www.linkedin.com/company/ochomilimetros/"
+                    target="_blank"
+                  >
+                    <i class="fa fa-fw fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-outline-light btn-social text-center rounded-circle"
+                    href="https://www.instagram.com/8milimetrosok/"
+                    target="_blank"
+                  >
+                    <i class="fa fa-fw fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Empresas </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../talleres/talleres.html">Talleres</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../conversaciones/conversaciones.html"
-                >Conversaciones</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
-            </li>
-          </ul>
+            <div class="col-xs-0 col-sm-9 col-md-6 derecha">
+              <a
+                class="lead mb-0 lead mb-0 textoBlanco izquierda"
+                href="mailto:contacto@8milimetros.com.ar?Subject=Contacto%20ocho%20milimetros"
+                >contacto@8milimetros.com.ar
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark blanco inverted">
+        <div class="container-fluid" id="divAdentroDeNav">
+          <!-- <a class="navbar-brand" href="#">8 Milímetros</a> -->
+
+          <a class="navbar-brand" href="#">
+            <img class="logoGrande" src="../img/8milimetrosBlanco.png" alt="" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse centrado" id="navbarResponsive">
+            <div class="container-fluid">
+              <div class="row navbar-nav ml-auto centrado">
+                <!-- <ul class="navbar-nav ml-auto centrado"> -->
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../index.html"
+                      >Inicio
+                      <span class="sr-only">(current)</span>
+                    </a>
+                  </li>
+                </div>
+                <div class="col-md-2">
+                  <li class="nav-item">
+                    <a id="linkEmpresas" class="nav-link" href="#">Empresas</a>
+                    <ul id="desplegableEmpresas" class="desplegable">
+                      <li>
+                        <a class="nav-link" href="#liderazgo">Liderazgo</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="#comunicacion"
+                          >Comunicación</a
+                        >
+                      </li>
+                      <li>
+                        <a class="nav-link" href="#teamBuilding"
+                          >Team Building</a
+                        >
+                      </li>
+                      <li>
+                        <a class="nav-link" href="#gestionDeCambio"
+                          >Gestión de Cambio</a
+                        >
+                      </li>
+                      <li>
+                        <a class="nav-link" href="#resultadosExtraordinarios"
+                          >Resultados Extraordinarios</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </div>
+                <div class="col-md-2">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../talleres/talleres.html"
+                      >Talleres</a
+                    >
+                  </li>
+                </div>
+                <div class="col-md-2">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="../conversaciones/conversaciones.html"
+                      >Conversaciones</a
+                    >
+                  </li>
+                </div>
+                <div class="col-md-2">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../contacto/contacto.html"
+                      >Contacto</a
+                    >
+                  </li>
+                </div>
+
+                <!-- </ul> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <!-- Page Content -->
-    <div class="container">
+
+    <!-- 
+
+
+    <div class="container abajoDelNav">
       <div class="row">
         <div class="col-lg-3">
           <h1 class="my-4"></h1>
@@ -91,39 +202,187 @@
             >
             <a href="#resultadosExtraordinarios" class="list-group-item"
               >Resultados Extraordinarios</a
-            >
-          </div>
-        </div>
+            > -->
+
+    <div class="container abajoDelNav">
+      <div class="row">
         <!-- /.col-lg-3 -->
 
-        <div class="col-lg-9">
-          <div class="card mt-4">
-            <img
-              class="card-img-top img-fluid"
-              src="../img/coachingEmpresas.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <h3 class="card-title">Coaching Empresarial</h3>
-              <!-- <h4>$24.99</h4> -->
-              <p class="card-text" id="liderazgo">
-                El coaching empresarial está destinado a cualquier organización
-                que necesite trabjar en las relaciones intra e interpersonales.
-              </p>
-              <!-- <span class="text-warning"
-                >&#9733; &#9733; &#9733; &#9733; &#9734;</span
-              >
-              4.0 stars -->
+        <div class="col-lg-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-lg-8">
+                <div class="card mt-4 achicarFoto">
+                  <img
+                    class="card-img-top img-fluid "
+                    src="../img/coachingEmpresas.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">Coaching Empresarial</h3>
+                    <!-- <h4>$24.99</h4> -->
+                      El coaching empresarial está destinado a cualquier
+                      organización que necesite trabjar en las relaciones intra
+                      e interpersonales.
+                    </p>
+                    <!-- <span class="text-warning"
+                      >&#9733; &#9733; &#9733; &#9733; &#9734;</span
+                    >
+                    4.0 stars -->
+                  </div>
+                </div>
+              </div>
             </div>
+            <hr />
           </div>
           <!-- /.card -->
-          <p></p>
-          <div class="card card-outline-secondary my-4" id="liderazgo">
+
+          <div class="row ">
+            <div class="col-lg-4 col-md-6 mb-4" id= "liderazgo">
+              <div class="card h-100">
+                <a href="#"
+                  ><img
+                    class="card-img-top"
+                    src="http://placehold.it/700x400"
+                    alt=""
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Liderazgo</a>
+                  </h4>
+
+                  <p class="card-text">
+                    El programa tiene como propósito potenciar las virtudes de
+                    los líderes para que se empoderen en su rol y así optimizar
+                    los resultados de sus equipos. Enfocado en el aprendizaje
+                    como camino, los valores de un líder y la escucha como
+                    fortaleza.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4"id="comunicacion">
+              <div class="card h-100">
+                <a href="#"
+                  ><img
+                    class="card-img-top"
+                    src="http://placehold.it/700x400"
+                    alt=""
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Comunicación</a>
+                  </h4>
+
+                  <p class="card-text">
+                    El programa hace foco en la comunicación verbal y no verbal
+                    para coordinar acciones y mejorar el intercambio de
+                    información entre los involucrados.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4"id="teamBuilding">
+              <div class="card h-100">
+                <a href="#"
+                  ><img
+                    class="card-img-top"
+                    src="http://placehold.it/700x400"
+                    alt=""
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Team Building</a>
+                  </h4>
+
+                  <p class="card-text">
+                    El programa tiene como objetivo el autoconocimiento de cada
+                    miembro del equipo para mejorar sus vínculos y reconocerse
+                    en su rol. Está enfocado en fortalecer sus relaciones, la
+                    toma de conciencia sobre la importancia del otro, la
+                    detección de las expectativas propias y la de los demás.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="offset-lg-2 col-lg-4 col-md-6 mb-4"id="gestionDeCambio">
+              <div class="card h-100">
+                <a href="#"
+                  ><img
+                    class="card-img-top"
+                    src="http://placehold.it/700x400"
+                    alt=""
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Gestión de Cambio</a>
+                  </h4>
+
+                  <p class="card-text">
+                    El programa busca incentivar y motivar a la organización a
+                    salir de su zona de confort y disminuir la resistencia al
+                    cambio. Se trabaja sobre la resolución de conflictos para
+                    mejorar el trabajo en equipo y lograr una visión colectiva
+                    que genere entusiasmo y cambios.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4"id="resultadosExtraordinarios">
+              <div class="card h-100">
+                <a href="#"
+                  ><img
+                    class="card-img-top"
+                    src="http://placehold.it/700x400"
+                    alt=""
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Resultados Extraordinarios</a>
+                  </h4>
+
+                  <p class="card-text">
+                    El programa tiene como propósito la definición de objetivos,
+                    la detección de obstáculos, la fuente de motivación y el
+                    desarrollo de un plan de acción para lograr los resultados
+                    deseados.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"
+                  ><img
+                    class="card-img-top"
+                    src="http://placehold.it/700x400"
+                    alt=""
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Item Six</a>
+                  </h4>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Amet numquam aspernatur!
+                  </p>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <!-- <div class="card card-outline-secondary my-4" id="liderazgo">
             <div class="card-header">
               Liderazgo
             </div>
             <div class="card-body">
-              <p id="comunicacion">
+              <p>
                 El programa tiene como propósito potenciar las virtudes de los
                 líderes para que se empoderen en su rol y así optimizar los
                 resultados de sus equipos. Enfocado en el aprendizaje como
@@ -131,24 +390,24 @@
               </p>
             </div>
           </div>
-          <div class="card card-outline-secondary my-4">
+          <div class="card card-outline-secondary my-4" id="comunicacion">
             <div class="card-header">
               Comunicación
             </div>
             <div class="card-body">
-              <p id="teamBuilding">
+              <p>
                 El programa hace foco en la comunicación verbal y no verbal para
                 coordinar acciones y mejorar el intercambio de información entre
                 los involucrados.
               </p>
             </div>
           </div>
-          <div class="card card-outline-secondary my-4">
+          <div class="card card-outline-secondary my-4" id="teamBuilding">
             <div class="card-header">
               Team Building
             </div>
             <div class="card-body">
-              <p id="gestionDeCambio">
+              <p>
                 El programa tiene como objetivo el autoconocimiento de cada
                 miembro del equipo para mejorar sus vínculos y reconocerse en su
                 rol. Está enfocado en fortalecer sus relaciones, la toma de
@@ -157,7 +416,7 @@
               </p>
             </div>
           </div>
-          <div class="card card-outline-secondary my-4">
+          <div class="card card-outline-secondary my-4" id="gestionDeCambio">
             <div class="card-header">
               Gestión de Cambio
             </div>
@@ -185,7 +444,7 @@
                 de un plan de acción para lograr los resultados deseados.
               </p>
             </div>
-          </div>
+          </div> -->
           <!-- /.card -->
         </div>
         <!-- /.col-lg-9 -->
@@ -198,13 +457,22 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-5 mb-lg-0 footer-right">
-            <h4 class="text-uppercase mb-4">Location</h4>
+            <h4 class="text-uppercase mb-4">
+              <span class="material-icons">
+                location_on
+              </span>
+            </h4>
             <p class="lead mb-0">
               Capital Federal <br />Buenos Aires, Argentina
             </p>
           </div>
           <div class="col-md-4 mb-5 mb-lg-0 text-center">
-            <h4 class="text-uppercase mb-4">Nuestras Redes</h4>
+            <h4 class="text-uppercase mb-4">
+              <span class="material-icons">
+                people
+              </span>
+            </h4>
+
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
                 <a
@@ -216,22 +484,6 @@
                 </a>
               </li>
 
-              <li class="list-inline-item">
-                <a
-                  class="btn-outline-light btn-social text-center rounded-circle"
-                  href="#"
-                >
-                  <i class="fa fa-fw fa-google-plus"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="btn-outline-light btn-social text-center rounded-circle"
-                  href="#"
-                >
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
-              </li>
               <li class="list-inline-item">
                 <a
                   class="btn-outline-light btn-social text-center rounded-circle"
@@ -252,10 +504,14 @@
             </ul>
           </div>
           <div class="col-md-4 footer-left">
-            <h4 class="text-uppercase mb-4">Contactanos</h4>
+            <h4 class="text-uppercase mb-4">
+              <span class="material-icons">
+                email
+              </span>
+            </h4>
 
             <a
-              class="lead mb-0"
+              class="lead mb-0 textoBlanco"
               href="mailto:contacto@8milimetros.com.ar?Subject=Contacto%20ocho%20milimetros"
               >contacto@8milimetros.com.ar</a
             >
@@ -268,5 +524,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js.js"></script>
   </body>
 </html>

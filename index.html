@@ -14,9 +14,19 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link href="css/clean-blog.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link href="./fonts/fontfamily.css" rel="stylesheet">
-    <link href="./menu/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./fonts/fontfamily.css" rel="stylesheet" />
+    <link
+      href="./menu/vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link
       href="vendor/font-awesome/css/font-awesome.min.css"
       rel="stylesheet"
@@ -25,71 +35,182 @@
 
     <!-- Custom styles for this template -->
     <!-- <link href="css/heroic-features.css" rel="stylesheet" /> -->
+    <link href="estilos.css" rel="stylesheet" />
   </head>
 
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <!-- <a class="navbar-brand" href="#">8 Milímetros</a> -->
-        <a class="navbar-brand" href="#">
-          <img class ="logoGrande" src="./img/8milimetrosBlanco.png" alt="">
-        </a>
-      
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio
-                <span class="sr-only">(current)</span>
-              </a>
-
-            </li>
-        
-
-            <li class="nav-item">
-              <a id="linkEmpresas" class="nav-link" href="./empresas/empresas.html">Empresas</a>
-              <ul id="desplegableEmpresas" class="desplegable">
-                <li><a class="nav-link" href="./empresas/empresas.html#liderazgo">Liderazgo</a></li>
-                <li><a class="nav-link" href="./empresas/empresas.html#comunicacion">Comunicación</a></li>
-                <li><a class="nav-link" href="./empresas/empresas.html#teamBuilding">Team Building</a></li>
-                <li><a class="nav-link" href="./empresas/empresas.html#gestionDeCambio">Gestión de Cambio</a></li>
-                <li><a class="nav-link" href="./empresas/empresas.html#resultadosExtraordinarios">Resultados Extraordinarios</a></li>                
+    <div class="fixed-top">
+      <div class="colorNav chicoNoSeVe">
+        <div id="segundoNav" class="container-fluid colorNav1">
+          <div class="row">
+            <div class="col-xs-0 col-sm-3 col-md-6 centrarIconos">
+              <ul class="list-inline mb-0 centrarIconos">
+                <li class="list-inline-item">
+                  <a
+                    class="btn-outline-light btn-social text-center rounded-circle"
+                    href="https://www.facebook.com/8milimetrosok"
+                    target="_blank"
+                  >
+                    <i class="fa fa-fw fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-outline-light btn-social text-center rounded-circle"
+                    href="https://www.linkedin.com/company/ochomilimetros/"
+                    target="_blank"
+                  >
+                    <i class="fa fa-fw fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-outline-light btn-social text-center rounded-circle"
+                    href="https://www.instagram.com/8milimetrosok/"
+                    target="_blank"
+                  >
+                    <i class="fa fa-fw fa-instagram"></i>
+                  </a>
+                </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./talleres/talleres.html">Talleres</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./conversaciones/conversaciones.html">Conversaciones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contacto/contacto.html">Contacto</a>
-            </li>
-          </ul>
+            </div>
+
+            <div class="col-xs-0 col-sm-9 col-md-6 derecha">
+              <a
+                class="lead mb-0 lead mb-0 textoBlanco izquierda"
+                href="mailto:contacto@8milimetros.com.ar?Subject=Contacto%20ocho%20milimetros"
+                >contacto@8milimetros.com.ar
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark blanco inverted">
+        <div class="container-fluid" id="divAdentroDeNav">
+          <!-- <a class="navbar-brand" href="#">8 Milímetros</a> -->
+
+          <a class="navbar-brand" href="#">
+            <img class="logoGrande" src="./img/8milimetrosBlanco.png" alt="" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse centrado" id="navbarResponsive">
+            <div class="container-fluid">
+              <div class="row navbar-nav ml-auto centrado">
+                <!-- <ul class="navbar-nav ml-auto centrado"> -->
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"
+                      >Inicio
+                      <span class="sr-only">(current)</span>
+                    </a>
+                  </li>
+                </div>
+                <div class="col-md-2">
+                  <li class="nav-item">
+                    <a
+                      id="linkEmpresas"
+                      class="nav-link"
+                      href="./empresas/empresas.html"
+                      >Empresas</a
+                    >
+                    <ul id="desplegableEmpresas" class="desplegable">
+                      <li>
+                        <a
+                          class="nav-link"
+                          href="./empresas/empresas.html#liderazgo"
+                          >Liderazgo</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="nav-link"
+                          href="./empresas/empresas.html#comunicacion"
+                          >Comunicación</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="nav-link"
+                          href="./empresas/empresas.html#teamBuilding"
+                          >Team Building</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="nav-link"
+                          href="./empresas/empresas.html#gestionDeCambio"
+                          >Gestión de Cambio</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="nav-link"
+                          href="./empresas/empresas.html#resultadosExtraordinarios"
+                          >Resultados Extraordinarios</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </div>
+                <div class="col-md-2">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./talleres/talleres.html"
+                      >Talleres</a
+                    >
+                  </li>
+                </div>
+                <div class="col-md-2">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="./conversaciones/conversaciones.html"
+                      >Conversaciones</a
+                    >
+                  </li>
+                </div>
+                <div class="col-md-2">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto/contacto.html"
+                      >Contacto</a
+                    >
+                  </li>
+                </div>
+
+                <!-- </ul> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
     <header
       class="masthead"
       style="background-image: url('./img/8mmPortada.jpg')"
-      >
+    >
       <div class="overlay"></div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-12 col-md-12 mx-auto">
-            <div class="site-heading text-uppercase ">
-              <h1>Aumentá tu potencial</h1>
+          <div class="col-lg-12 col-md-12 mx-auto sinPadding">
+            <div
+              class="site-heading text-uppercase negrita"
+              id="tituloPrincipal"
+            >
+              <h1 class="tamanoTitulo">Aumentá tu potencial</h1>
               <!-- <button class="button">Contacto</button> -->
               <!-- <span class="subheading">A Blog Theme by Start Bootstrap</span> -->
             </div>
@@ -102,21 +223,19 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
-              <h2 class="post-title">
-                BIENVENIDOS A 8 MILÍMETROS CONSULTORA
-              </h2>
-              <h3 class="post-subtitle text-center">
-                Somos una consultora de Coaching Ontológico que brinda servicios personalizados a empresas, organizaciones sin fines de lucro e individuos.
-              </h3>
-              <!-- <h3 class="post-subtitle text-center">
+            <h2 class="post-title subtitulo">
+              BIENVENIDOS A 8 MILÍMETROS CONSULTORA
+            </h2>
+            <h3 class="post-subtitle text-center achicarLetra">
+              Somos una consultora de Coaching Ontológico que brinda servicios
+              personalizados a empresas, organizaciones sin fines de lucro e
+              individuos.
+            </h3>
+            <!-- <h3 class="post-subtitle text-center">
                 Brindamos servicios a empresas, organizaciones sin fines de lucro y personas individuales
                </h3> -->
-            </a>
-            <img
-              class="card-img-top"
-              src="./img/8milimetros.ai"
-              alt=""
-            />
+
+            <img class="card-img-top" src="./img/8milimetros.ai" alt="" />
             <!-- <p class="post-meta">
               Somos una consultora de Coaching Ontológico que brinda servicios personalizados a empresas, organizaciones sin fines de lucro e individuos.. 
             </p> -->
@@ -125,7 +244,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Page Content -->
     <div class="container">
       <!-- Page Features -->
@@ -134,12 +253,15 @@
           <div class="card h-100">
             <a href="./empresas/empresas.html">
               <div class="foto-card-empresas text-white card card-title">
-              <h4 class="card-title arriba-foto text-white ">Coaching Empresarial</h4>
-            </div>
+                <h4 class="card-title arriba-foto text-white">
+                  Coaching Empresarial
+                </h4>
+              </div>
             </a>
             <div class="card-body">
               <p class="card-text">
-                El coaching empresarial está destinado a cualquier organización que necesite trabjar en las relaciones intra e interpersonales.
+                El coaching empresarial está destinado a cualquier organización
+                que necesite trabjar en las relaciones intra e interpersonales.
               </p>
             </div>
             <!-- <div class="card-footer">
@@ -150,9 +272,13 @@
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-<a href="./talleres/talleres.html"><div class="foto-card-talleres text-white card card-title">
-  <h4 class="card-title arriba-foto text-white ">Talleres Grupales</h4>
-</div></a>
+            <a href="./talleres/talleres.html">
+              <div class="foto-card-talleres text-white card card-title">
+                <h4 class="card-title arriba-foto text-white ">
+                  Talleres Grupales
+                </h4>
+              </div>
+            </a>
             <!-- <div class="foto-card-talleres text-white card card-title">
               <h4 class="card-title arriba-foto text-white ">Talleres Grupales</h4>
             </div> -->
@@ -177,10 +303,14 @@
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="./conversaciones/conversaciones.html">  <div class="foto-card-conversaciones text-white card card-title">
-              <h4 class="card-title arriba-foto text-white ">Conversaciones de Coaching</h4>
-            </div> </a>
-          
+            <a href="./conversaciones/conversaciones.html">
+              <div class="foto-card-conversaciones text-white card card-title">
+                <h4 class="card-title arriba-foto text-white ">
+                  Conversaciones de Coaching
+                </h4>
+              </div>
+            </a>
+
             <div class="card-body">
               <!-- <h4 class="card-title">Conversaciones de Coaching</h4> -->
               <p class="card-text">
@@ -193,10 +323,8 @@
             </div> -->
           </div>
         </div>
-
       </div>
       <hr />
-
     </div>
 
     <!-- Footer -->
@@ -209,61 +337,72 @@
      
     </footer> -->
 
-
     <footer class="py-5 bg-dark text-white">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-5 mb-lg-0 footer-right">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">Capital Federal
-              <br>Buenos Aires, Argentina</p>
+            <h4 class="text-uppercase mb-4">
+              <span class="material-icons">
+                location_on
+              </span>
+            </h4>
+            <p class="lead mb-0">
+              Capital Federal <br />Buenos Aires, Argentina
+            </p>
           </div>
           <div class="col-md-4 mb-5 mb-lg-0 text-center">
-            <h4 class="text-uppercase mb-4">Nuestras Redes</h4>
-            <ul class="list-inline mb-0">
+            <h4 class="text-uppercase mb-4">
+              <span class="material-icons">
+                people
+              </span>
+            </h4>
 
+            <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/8milimetrosok" target="_blank">
+                <a
+                  class="btn-outline-light btn-social text-center rounded-circle"
+                  href="https://www.facebook.com/8milimetrosok"
+                  target="_blank"
+                >
                   <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
-  
+
               <li class="list-inline-item">
-                <a class="btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-google-plus"></i>
-                </a>
-              </li> 
-              <li class="list-inline-item">
-                <a class="btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/company/ochomilimetros/"
-                  target="_blank">
+                <a
+                  class="btn-outline-light btn-social text-center rounded-circle"
+                  href="https://www.linkedin.com/company/ochomilimetros/"
+                  target="_blank"
+                >
                   <i class="fa fa-fw fa-linkedin"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn-outline-light btn-social text-center rounded-circle" href="https://www.instagram.com/8milimetrosok/">
+                <a
+                  class="btn-outline-light btn-social text-center rounded-circle"
+                  href="https://www.instagram.com/8milimetrosok/"
+                >
                   <i class="fa fa-fw fa-instagram"></i>
                 </a>
               </li>
             </ul>
           </div>
           <div class="col-md-4 footer-left">
-            <h4 class="text-uppercase mb-4">Contactanos</h4>
-  
+            <h4 class="text-uppercase mb-4">
+              <span class="material-icons">
+                email
+              </span>
+            </h4>
+
             <a
-            class="lead mb-0"
-            href="mailto:contacto@8milimetros.com.ar?Subject=Contacto%20ocho%20milimetros"
-            >contacto@8milimetros.com.ar</a
-          >
+              class="lead mb-0 textoBlanco"
+              href="mailto:contacto@8milimetros.com.ar?Subject=Contacto%20ocho%20milimetros"
+              >contacto@8milimetros.com.ar</a
+            >
             <!-- <a href="http://startbootstrap.com">Start Bootstrap</a>. -->
           </div>
         </div>
       </div>
-  
     </footer>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
