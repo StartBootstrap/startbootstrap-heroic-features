@@ -63,7 +63,7 @@
 }
 .logoGrande {
   /* max-width: 10 px; */
-  height: 50px;
+  height: 40px;
 }
 body {
   padding-top: 60px;
@@ -82,4 +82,9 @@ body {
 }
 .achicarFoto {
   margin: 0px, 110px, 0px, 100px;
+}
+.letraContacto {
+  font-size: 1 px;
+}
+.despegarNav {
 }
