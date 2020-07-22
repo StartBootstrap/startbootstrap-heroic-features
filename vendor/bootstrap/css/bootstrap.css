@@ -2761,7 +2761,7 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
 }
 masthead {
-  padding-top: 10rem;
+  /* padding-top: 10rem; */
   padding-bottom: calc(10rem - 72px);
   background: linear-gradient(
     to bottom,

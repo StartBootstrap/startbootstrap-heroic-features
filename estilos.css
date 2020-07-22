@@ -6,6 +6,10 @@
 }
 .inverted {
   filter: invert(100%);
+  opacity: 0.8;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #343a40;
 }
 .izquierda {
   margin-right: auto;
@@ -18,7 +22,7 @@
 }
 .colorNav1 {
   /* background-color: black; */
-  padding: 0.7%;
+  /* padding: 0.7%; */
   vertical-align: middle;
 }
 .centrarIconos {
@@ -66,7 +70,7 @@
   height: 40px;
 }
 body {
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 .bodyEmpresas {
   padding-top: 100px;
@@ -86,5 +90,9 @@ body {
 .letraContacto {
   font-size: 1 px;
 }
-.despegarNav {
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+.contorno {
 }
