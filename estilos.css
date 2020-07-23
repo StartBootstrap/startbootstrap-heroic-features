@@ -6,7 +6,6 @@
 }
 .inverted {
   filter: invert(100%);
-  opacity: 0.8;
   border-bottom-style: solid;
   border-width: 1px;
   border-color: #343a40;
@@ -49,7 +48,9 @@
 #segundoNav {
   padding: 0.5rem 1rem;
 }
-
+.subtitulosSecundarios {
+  font-size: 1rem;
+}
 .blanco {
   background-color: black;
 }
@@ -70,13 +71,13 @@
   height: 40px;
 }
 body {
-  /* padding-top: 60px; */
+  padding-top: 1px;
 }
 .bodyEmpresas {
   padding-top: 100px;
 }
 .bodyTalleres {
-  padding-top: 90px;
+  padding-top: 100px;
 }
 .bodyConversaciones {
   padding-top: 100px;
@@ -84,9 +85,7 @@ body {
 .bodyContacto {
   padding-top: 100px;
 }
-.achicarFoto {
-  margin: 0px, 110px, 0px, 100px;
-}
+
 .letraContacto {
   font-size: 1 px;
 }
@@ -94,5 +93,6 @@ body {
 .bg-light {
   background-color: #f8f9fa !important;
 }
-.contorno {
+.centrado {
+  text-align: center;
 }
