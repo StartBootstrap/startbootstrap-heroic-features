@@ -1,0 +1,24 @@
+/*!
+ * Start Bootstrap - Shop Item (https://startbootstrap.com/template-overviews/shop-item)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+.logoGrande {
+  /* max-width: 10 px; */
+  height: 40px;
+}
+.footer-left {
+  text-align: center;
+  object-position: left;
+}
+.footer-right {
+  text-align: center;
+  object-position: right;
+}
+.talleres {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
