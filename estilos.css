@@ -48,8 +48,14 @@
 #segundoNav {
   padding: 0.5rem 1rem;
 }
+.subtitulosPortada {
+  color: white;
+  font-family: Oswald;
+  letter-spacing: -1px;
+}
 .subtitulosSecundarios {
   font-size: 1rem;
+  /* color: white; */
 }
 .blanco {
   background-color: black;
@@ -65,6 +71,7 @@
 .subtitulo {
   text-align: center;
   font-size: calc(1.2em + 2vw);
+  /* color: white; */
 }
 .logoGrande {
   /* max-width: 10 px; */
@@ -98,4 +105,26 @@ body {
 }
 .subtitulos {
   font-size: 25px;
+}
+.iconos {
+  max-width: 100px;
+}
+.portadas {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: #212529;
+  opacity: 0.9; */
+}
+.centrarDiv {
+  margin: auto;
+}
+.negro {
+  color: #343a40;
+}
+.filtroFotos {
+  background-color: #3b77b3;
+  opacity: 1;
 }
