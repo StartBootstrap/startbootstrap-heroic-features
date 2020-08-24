@@ -127,7 +127,66 @@ header.masthead .post-heading .subheading {
   background-attachment: scroll;
   background-size: cover;
 }
-
+.foto-card-portadaEmpresasas {
+  padding-top: 4rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.263) 0,
+      rgba(92, 77, 66, 0.571) 100%
+    ),
+    url(../img/empresasPortada.png);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.foto-card-portadaTalleres {
+  padding-top: 4rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.263) 0,
+      rgba(92, 77, 66, 0.571) 100%
+    ),
+    url(../img/talleresPortada.jpg);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.foto-card-portadaConversaciones {
+  padding-top: 4rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.263) 0,
+      rgba(92, 77, 66, 0.571) 100%
+    ),
+    url(../img/conversacionesPortada.webp);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.foto-card-portadaClub {
+  padding-top: 4rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.263) 0,
+      rgba(92, 77, 66, 0.571) 100%
+    ),
+    url(../img/Club.jpg);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 header.masthead .post-heading .subheading {
   font-size: 24px;
   font-weight: 600;
