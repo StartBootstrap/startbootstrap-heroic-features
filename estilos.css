@@ -1,3 +1,6 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
 .textoBlanco {
   color: white;
 }
@@ -6,7 +9,7 @@
 }
 .inverted {
   filter: invert(100%);
-  border-bottom-style: solid;
+  /* border-bottom-style: solid; */
   border-width: 1px;
   border-color: #343a40;
 }
@@ -50,7 +53,7 @@
 }
 .subtitulosPortada {
   color: white;
-  font-family: Oswald;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: -1px;
   font-weight: 5000;
 }
@@ -66,7 +69,7 @@
   padding-right: 0px;
 }
 .tamanoTitulo {
-  font-family: Oswald;
+  font-family: 'Poppins', sans-serif;
   font-size: calc(1.2em + 6vw);
   font-weight: 900;
 }
