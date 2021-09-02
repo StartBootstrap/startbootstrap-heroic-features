@@ -133,3 +133,18 @@ body {
   background-color: #3b77b3;
   opacity: 1;
 }
+.negrita{
+  font-weight: bold;
+}
+.colorUno{
+  color: #042841;
+}
+.colorDos{
+  color: #1E7487;
+}
+.colorTres{
+  color: #3DA5A5;
+}
+.colorCuatro{
+  color: #E8927C;
+}
