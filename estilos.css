@@ -15,7 +15,7 @@
   border-color: #343a40;
 }
 .izquierda {
-  margin-right: auto;
+  text-align: left;
 }
 .derecha {
   text-align: right;
@@ -81,7 +81,8 @@
 }
 .logoGrande {
   /* max-width: 10 px; */
-  height: 40px;
+  height: 30px;
+  /* width: 30px; */
 }
 body {
   padding-top: 107px;
@@ -148,4 +149,10 @@ body {
 }
 .colorCuatro{
   color: #E8927C;
+}
+.negritaa{
+  font-weight: 900;
+}
+.logoPrincipal{
+  height: 250px;
 }
