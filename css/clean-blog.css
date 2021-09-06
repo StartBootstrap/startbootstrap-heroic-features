@@ -152,7 +152,7 @@ header.masthead .post-heading .subheading {
     ),
     url(../img/lideres2.jpg);
   /* src="./img/talleresGrupales.jpeg" */
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;

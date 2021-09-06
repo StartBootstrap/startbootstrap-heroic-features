@@ -1,6 +1,6 @@
 *{
   font-family: 'Poppins', sans-serif;
-  font-weight: 900;
+  font-weight: 200;
 }
 .textoBlanco {
   color: white;
@@ -125,6 +125,16 @@ body {
   /* background-color: #212529;
   opacity: 0.9; */
 }
+.portadatalleres{
+  /* position: absolute; */
+  /* top: 0; */
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: #212529;
+  opacity: 0.9; */
+}
 .centrarDiv {
   margin: auto;
 }
@@ -151,7 +161,7 @@ body {
   color: #E8927C;
 }
 .negritaa{
-  font-weight: 900;
+  font-weight: 400;
 }
 .logoPrincipal{
   height: 250px;
