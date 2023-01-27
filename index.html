@@ -1,6 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
+  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -11,19 +13,84 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css"rel="stylesheet" />
+  <link rel="stylesheet" href="img/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+/* Style the footer */
+    footer {
+        background-color: #FEB73B;
+        color: #0E0E13;
+padding: 1em;
+text-align: center;
+} 
+
+/* Body */
+
+/* Links */
+a {
+  color: #6200ea; #a000c5
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  color: #a000c5;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Containers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+}
+
+</style>
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-lg-5">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
+                <a class="navbar-brand" href="#!"><svg class="logo" width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0.5" y="0.5" width="199" height="49" rx="25" stroke="#4caf50" fill="#ffc107"/>
+      <rect x="0.5" y="0.5" width="199" height="49" rx="25" stroke="#4caf50"/>
+      <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="24" font-family="sans-serif" fill="#ffffff">Naija Barrack Boi</text>
+    </svg></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Personal</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">NaijaTech</a></li>
+            <li class="nav-item"><a class="nav-link" href="#!">Productivity</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Naija life</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#!">About </a></li>
                     </ul>
                 </div>
             </div>
@@ -33,8 +100,12 @@
             <div class="container px-lg-5">
                 <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
                     <div class="m-4 m-lg-5">
-                        <h1 class="display-5 fw-bold">A warm welcome!</h1>
-                        <p class="fs-4">Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</p>
+                        <h1 class="display-5 fw-bold">welcome to Ogwo Blog onlin !</h1>
+                        <p class="fs-4">Your number one source for all things related to personal development, technology, and life in Nigeria.
+
+So why wait? Start exploring Ogwo Blog Online today, and discover all the great content we have to offer.
+
+</p>
                         <a class="btn btn-primary btn-lg" href="#!">Call to action</a>
                     </div>
                 </div>
@@ -49,17 +120,21 @@
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
-                                <h2 class="fs-4 fw-bold">Fresh new layout</h2>
-                                <p class="mb-0">With Bootstrap 5, we've created a fresh new layout for this template!</p>
+                                <h2 class="fs-4 fw-bold">Personal Life</h2>
+                                <p class="mb-0"><h2 id="personal-life"></h2>
+  I am passionate about technology and the positive impact it can have on people's lives. In my personal life, I enjoy exploring new gadgets and software, and I am always on the lookout for ways to improve my productivity and efficiency. I also have a keen interest in photography and travel, and I love to document my experiences through my lens.!</p>
+  <a class="btn btn-primary btn-lg" href="#!">Call to action</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-cloud-download"></i></div>
-                                <h2 class="fs-4 fw-bold">Free to download</h2>
-                                <p class="mb-0">As always, Start Bootstrap has a powerful collectin of free templates.</p>
+                                <h2 class="fs-4 fw-bold">NaijaTech</h2>
+                                <p class="mb-0">NaijaTech is an exciting and rapidly-evolving field, and I am always keen to stay up-to-date with the latest developments and trends. I am particularly interested in the ways in which technology can be used to drive economic development and improve people's lives in Nigeria. I also enjoy writing about and sharing my insights and experiences in the field.</p>
+     <a class="btn btn-primary btn-lg" href="#!">Call to action</a>
                             </div>
                         </div>
                     </div>
@@ -67,8 +142,9 @@
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                <h2 class="fs-4 fw-bold">Jumbotron hero header</h2>
-                                <p class="mb-0">The heroic part of this template is the jumbotron hero header!</p>
+                                <h2 class="fs-4 fw-bold">Productivity</h2>
+                                <p class="mb-0">Productivity is essential for success in any field, and I am always looking for ways to improve my own productivity and help others do the same. I am a big believer in the power of tools and technology to boost productivity, and I enjoy sharing my tips and tricks for getting things done more efficiently.</p>
+     <a class="btn btn-primary btn-lg" href="#!">Call to action</a>
                             </div>
                         </div>
                     </div>
@@ -76,8 +152,8 @@
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap"></i></div>
-                                <h2 class="fs-4 fw-bold">Feature boxes</h2>
-                                <p class="mb-0">We've created some custom feature boxes using Bootstrap icons!</p>
+                                <h2 class="fs-4 fw-bold">Naija Life</h2>
+                                <p class="mb-0">Life in Naij is full of challenges and opportunities, and I love to explore and document the diverse cultures and experiences that make our country so unique. I am particularly interested in the ways in which technology can be used to improve people's lives and create positive change in our communities.</p><a class="btn btn-primary btn-lg" href="#!">Call to action</a>
                             </div>
                         </div>
                     </div>
@@ -85,30 +161,116 @@
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-code"></i></div>
-                                <h2 class="fs-4 fw-bold">Simple clean code</h2>
-                                <p class="mb-0">We keep our dependencies up to date and squash bugs as they come!</p>
+                                <h2 class="fs-4 fw-bold">
+About</h2>
+                                <p class="mb-0">Welcome to Ogwonlin BLOG, a platform where I share my personal insights on productivity, technology, and life in Nigeria. My name is Ogwonlin and I am a Nigerian tech enthusiast with a passion for sharing my knowledge and experiences with others.</p>
+  <p>On this blog, you will find posts on a wide range of topics including personal development, NaijaTech, and my experiences living in Nigeria. I also share tips and tricks on how to be more productive and efficient in your daily life.</p>
+  <p>My goal is to create a community of like-minded individuals who can learn and grow together. Thank you for visiting and I hope you find value in the content on my blog.</p><a class="btn btn-primary btn-lg" href="#!">Call to action</a>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-patch-check"></i></div>
-                                <h2 class="fs-4 fw-bold">A name you trust</h2>
-                                <p class="mb-0">Start Bootstrap has been the leader in free Bootstrap templates since 2013!</p>
+
+
+
+                 
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
-        </footer>
+   <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-patch-check"></i></div>
+      <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h5>About Us</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">About Ogwu OnlineBlog</a></li>
+          <li><a href="#">Meet the Team</a></li>
+          <li><a href="#">Partners and Sponsors</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Write for Us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Follow Us</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Newsletter</h5>
+        <p>Sign up for our newsletter and stay up-to-date with the latest news and articles.</p>
+        <form>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Enter your email">
+          </div>
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+        <div class="dropdown mt-4">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-exp
+          <div class="dropdown mt-4">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              New Design
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Option 1</a>
+              <a class="dropdown-item" href="#">Option 2</a>
+              <a class="dropdown-item" href="#">Option 3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h5>Meet the Team</h5>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ogwu Ixceberg</td>
+              <td>Founder and CEO</td>
+            </tr>
+            <tr>
+              <td>Kizzo Klint</td>
+              <td>Content Manager</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-    </body>
+ </body>
 </html>
