@@ -12,8 +12,6 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-heroic-features/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/startbootstrap-heroic-features.svg)](https://www.npmjs.com/package/startbootstrap-heroic-features)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-heroic-features/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-heroic-features)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-heroic-features/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-heroic-features?type=dev)
 
 ## Download and Installation
 
@@ -68,4 +66,4 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 
 ## Copyright and License
 
-Copyright 2013-2022 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE) license.
+Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE) license.
